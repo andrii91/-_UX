@@ -810,6 +810,20 @@ $(document).scroll(function() {
 				
 		}
 
+		/* 1280  1920*/
+
+		if ($(window).width() < 1290 || $(window).width() > 1900) {
+
+				if (y > 5400 ) {
+						
+						$('.arrow').css({
+								'top': '60.1%'
+						});
+						
+				}
+				
+		}
+
 
 });
 /*$('.oneclick').click(function () {
