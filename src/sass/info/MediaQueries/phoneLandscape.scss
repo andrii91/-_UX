@@ -1,0 +1,126 @@
+@import '../../mq';
+
+@media #{$phoneLandscape} {
+  @import '../mobile';
+
+  & {
+    .damir {
+      max-width: 450px;
+    }
+    .header-title {
+      font-size: 15px;
+      line-height: 1;
+    }
+    .header-info {
+      margin-top: 15px;
+      font-size: 12px;
+    }
+    .header-box h2 {
+      float: left;
+      color: #fff;
+      font-family: "Proxima Nova EB";
+      font-size: 45px;
+      font-weight: 900;
+      line-height: 1;
+      margin-right: 5px;
+    }
+    .header-box p span {
+      font-size: 20px;
+    }
+    .header-box p {
+      color: #fff;
+      font-family: "Proxima Nova";
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1;
+    }
+    .button-box {
+      margin-top: 10px;
+      img {
+        max-width: 100px;
+      }
+    }
+    .registration-btn {
+      padding: 10px 10px;
+      font-size: 12px;
+      margin-right: 10px;
+    }
+    .scale .scale-line {
+      background: url(../images/scale.png);
+      min-height: 11016px;
+      width: 100%;
+      background-repeat: repeat-y;
+      background-position: 5px 0;
+      background-size: 20%;
+    }
+    .arrow {
+      width: 100%;
+      background-size: 32%;
+    }
+    .label li {
+      font-size: 10px;
+    }
+    .head-list li {
+      color: #fff;
+      font-family: "Proxima Nova";
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1;
+      padding-left: 12px;
+      position: relative;
+      margin-bottom: 10px;
+    }
+    .head-list li:before {
+      content: "";
+      background: url(../images/61343.png) no-repeat;
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      top: 0px;
+      left: 0;
+      background-size: 100%;
+    }
+    #one {
+      img {
+        max-width: 100px !important;
+      }
+    }
+    .two-title {
+      margin-top: 10px;
+      font-size: 20px;
+    }
+    .two-info {
+      font-size: 10px;
+      margin-bottom: 9px;
+      line-height: 1;
+    }
+    #two {
+      img {
+        max-width: 100px;
+      }
+    }
+    .header-title_small {
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+    .header-info_small {
+      margin-top: 10px;
+      font-size: 12px;
+    }
+    .img-box {
+      margin-top: 10px;
+    }
+    .img-box img {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+        max-height: 15px;
+    }
+    .header-title {
+      p {
+        font-size: 12px !important;
+      }
+    }
+
+  }
+}

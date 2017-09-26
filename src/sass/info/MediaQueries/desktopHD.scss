@@ -1,0 +1,10 @@
+@import '../../mq';
+
+@media #{$desktopHD} {
+    @import '../desktop';
+    & {
+      .damir {
+        max-width: 1200px;
+      }
+    }
+}
