@@ -123,7 +123,7 @@ $('.scale .scale-line').css({
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('.header-title').text('').append('<span>1998</span>');
-            $(' .header-info').text('').append('<span>Создал свой первый сайт  </span><br> <br>Делал первые шаги в программировании <br>Жадно разбирался в новых технологиях<br> Переехал в Санкт-Петербург');
+            $(' .header-info').text('').append('<span>Создал свой первый сайт  </span><br> <br>Делал первые шаги в программировании <br>Жадно разбирался в новых технологиях<br> Переехал в Санкт-Петербург').show(400);
             $('.scale .scale-line').css({
                 'background-position-y': scaleHeight + 'px',
                 'transition': '1s'
@@ -144,7 +144,7 @@ $('.scale .scale-line').css({
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('.header-title').text('').append('<span>1998</span>');
-            $(' .header-info').text('').append('<span>в это же время... </span><br> <br> <img src="images/googlelogo_color_272x92dp.png" style="float:left; max-width: 200px; margin: 0 30px 0 0;">Лари Пейдж и Сергей Брин создают Google');
+            $(' .header-info').text('').append('<span>в это же время... </span><br> <br> <img src="images/googlelogo_color_272x92dp.png" style="float:left; max-width: 200px; margin: 0 30px 0 0;">Лари Пейдж и Сергей Брин создают Google').show(400);
             $('.scale .scale-line').css({
                 'background-position-y': scaleHeight + 'px',
                 'transition': '1s'
@@ -166,7 +166,7 @@ $('.scale .scale-line').css({
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('.header-title').text('').append('<span>2000</span>');
-            $(' .header-info').text('').append('<span>Становление специалиста  </span><br> <br>Работал PHP-программистом <br>Одним из первых начал осваивать SEO-продвижение');
+            $(' .header-info').text('').append('<span>Становление специалиста  </span><br> <br>Работал PHP-программистом <br>Одним из первых начал осваивать SEO-продвижение').show(400);
             $('.scale .scale-line').css({
                 'background-position-y': scaleHeight + 'px',
                 'transition': '1s'
@@ -187,7 +187,7 @@ $('.scale .scale-line').css({
           arrowPosition = $('.scale-line').height() / 2 + 10;
             $('.hide').show(400);
             $('.registration-btn').hide();
-            $(' .header-info').text('').append('<span>в это же время... </span><br> <br> <img src="images/logo_yandex-brauzer.png" style="float:left; max-width: 200px; margin: 0 30px 0 0;">Аркадий Волж <br>создает Яндекс');
+            $(' .header-info').text('').append('<span>в это же время... </span><br> <br> <img src="images/logo_yandex-brauzer.png" style="float:left; max-width: 200px; margin: 0 30px 0 0;">Аркадий Волж <br>создает Яндекс').show(400);
             $('.scale .scale-line').css({
                 'background-position-y': scaleHeight + 'px',
                 'transition': '1s'
@@ -209,7 +209,7 @@ $('.scale .scale-line').css({
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('.header-title').text('').append('<span>2003</span>');
-            $(' .header-info').text('').append('<span>Становление интернет-маркетолога  </span><br> <br>Работал интернет-маркетологом <br>Провел первую кампанию в Яндекс.Директ');
+            $(' .header-info').text('').append('<span>Становление интернет-маркетолога  </span><br> <br>Работал интернет-маркетологом <br>Провел первую кампанию в Яндекс.Директ').show(400);
             $('.scale .scale-line').css({
                 'background-position-y': scaleHeight + 'px',
                 'transition': '1s'
@@ -231,7 +231,7 @@ $('.scale .scale-line').css({
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('.header-title').text('').append('<span>2004</span>');
-            $(' .header-info').text('').append('<ul class="head-list"> <li>Провел первую кампанию вирусного маркетинга</li> <li>Работал руководителем отдела интернет-маркетинга</li> <li>Первый раз выступает на конференции</li> </ul>');
+            $(' .header-info').text('').append('<ul class="head-list"> <li>Провел первую кампанию вирусного маркетинга</li> <li>Работал руководителем отдела интернет-маркетинга</li> <li>Первый раз выступает на конференции</li> </ul>').show(400);
             $('.scale .scale-line').css({
                 'background-position-y': scaleHeight + 'px',
                 'transition': '1s'
@@ -252,7 +252,7 @@ $('.scale .scale-line').css({
           arrowPosition = $('.scale-line').height() / 2 + 10;
             $('.hide').show(400);
             $('.registration-btn').hide();
-            $(' .header-info').text('').append('<span>в это же время... </span><br> <br> <img src="images/facebook-clipart-transparent-background-4.jpg" style="float:left; max-width: 200px; margin: 0 30px 0 0;">Марк Цукерберг<br> создает Facebook');
+            $(' .header-info').text('').append('<span>в это же время... </span><br> <br> <img src="images/facebook-clipart-transparent-background-4.jpg" style="float:left; max-width: 200px; margin: 0 30px 0 0;">Марк Цукерберг<br> создает Facebook').show(400);
             $('.scale .scale-line').css({
                 'background-position-y': scaleHeight + 'px',
                 'transition': '1s'
@@ -274,7 +274,7 @@ $('.scale .scale-line').css({
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('.header-title').text('').append('<span>2005</span>');
-            $(' .header-info').text('').append('<ul class="head-list"> <li>Руководил интернет-агентством Волекс</li> <li>Провел первую SMM-кампанию в MySpace и Digg</li> <li>Опубликовал первую статью</li> </ul>');
+            $(' .header-info').text('').append('<ul class="head-list"> <li>Руководил интернет-агентством Волекс</li> <li>Провел первую SMM-кампанию в MySpace и Digg</li> <li>Опубликовал первую статью</li> </ul>').show(400);
             $('.scale .scale-line').css({
                 'background-position-y': scaleHeight + 'px',
                 'transition': '1s'
@@ -296,7 +296,7 @@ $('.scale .scale-line').css({
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('.header-title').text('').append('<span>2006</span>');
-            $(' .header-info').text('').append('<ul class="head-list"> <li>Основал первое в СНГ SMM-агентство GreenPR</li> <li>Первое интервью для федерального канала</li> <li>9 активных SMM-проектов</li> <li>Первый проект для Universal Pictures</li> </ul>');
+            $(' .header-info').text('').append('<ul class="head-list"> <li>Основал первое в СНГ SMM-агентство GreenPR</li> <li>Первое интервью для федерального канала</li> <li>9 активных SMM-проектов</li> <li>Первый проект для Universal Pictures</li> </ul>').show(400);
             $('.scale .scale-line').css({
                 'background-position-y': scaleHeight + 'px',
                 'transition': '1s'
@@ -318,7 +318,7 @@ $('.scale .scale-line').css({
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('.header-title').text('').append('<span>2007</span>');
-            $(' .header-info').text('').append('<span>в это же время... </span><br> <br> <img src="images/Russian-Social-Network-VKontakte-Cracks-Down-on-ISIS-Accounts-and-Pages-458887-2.png" style="float:left; max-width: 200px; margin: 0 30px 0 0;">Павел Дуров <br>запускает ВКонтакте');
+            $(' .header-info').text('').append('<span>в это же время... </span><br> <br> <img src="images/Russian-Social-Network-VKontakte-Cracks-Down-on-ISIS-Accounts-and-Pages-458887-2.png" style="float:left; max-width: 200px; margin: 0 30px 0 0;">Павел Дуров <br>запускает ВКонтакте').show(400);
             $('.scale .scale-line').css({
                 'background-position-y': scaleHeight + 'px',
                 'transition': '1s'
@@ -340,7 +340,7 @@ $('.scale .scale-line').css({
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('.header-title').text('').append('<span>2007</span>');
-            $(' .header-info').text('').append('<ul class="head-list"> <li>Первое выступление на Российском Интернет Форуме</li> <li>Команда GreenPR - 12 человек  </li> <li>28 активных SMM-проектов</li> <li>Начало работы с «Балтикой», «Стокгольмской Школой Экономики», «Миэль»  </li> </ul>');
+            $(' .header-info').text('').append('<ul class="head-list"> <li>Первое выступление на Российском Интернет Форуме</li> <li>Команда GreenPR - 12 человек  </li> <li>28 активных SMM-проектов</li> <li>Начало работы с «Балтикой», «Стокгольмской Школой Экономики», «Миэль»  </li> </ul>').show(400);
             $('.scale .scale-line').css({
                 'background-position-y': scaleHeight + 'px',
                 'transition': '1s'
@@ -362,7 +362,7 @@ $('.scale .scale-line').css({
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('.header-title').text('').append('<span>2008</span>');
-            $(' .header-info').text('').append('<span>Первый тренинг по SMM </span><br> <br> Провел первый тренинг «Маркетинг в социальных сетях» <br>Старт работы GreenPR с Pepsi, ISIC, Евросеть  ');
+            $(' .header-info').text('').append('<span>Первый тренинг по SMM </span><br> <br> Провел первый тренинг «Маркетинг в социальных сетях» <br>Старт работы GreenPR с Pepsi, ISIC, Евросеть  ').show(400);
             $('.scale .scale-line').css({
                 'background-position-y': scaleHeight + 'px',
                 'transition': '1s'
@@ -414,7 +414,7 @@ $('.scale .scale-line').css({
             $('#two').hide(200);
             $('#one').show(200);
             $('.header-title').text('').append('<span>2009</span>');
-            $(' .header-info').text('').append('<ul class="head-list"> <li>Консультировал стартапы на Harvest, Startup Weekend</li> <li>Начал преподавать в Государственный Университет Управления</li> <li>Первый проект для SonyPictures</li> </ul>');
+            $(' .header-info').text('').append('<ul class="head-list"> <li>Консультировал стартапы на Harvest, Startup Weekend</li> <li>Начал преподавать в Государственный Университет Управления</li> <li>Первый проект для SonyPictures</li> </ul>').show(400);
             $('.header-box').hide(400);
             $('.scale .scale-line').css({
                 'background-position-y': scaleHeight + 'px',
@@ -459,7 +459,7 @@ $('.scale .scale-line').css({
             $('#two').hide(200);
             $('#one').show(200);
             $('.header-title').text('').append('<span>2010</span>');
-            $(' .header-info').text('').append('<ul class="head-list"> <li>Открытие филиалов GreenPR в Казахстане и Украине  </li> <li>Визит в составе российской делегации в Кремниевую долину (визиты в Google, Facebook, Wikipedia, Yahoo и 12 других ключевых компаний)</li> <li>Переезд офиса из Санкт-Петербурга в Москву  </li> </ul>');
+            $(' .header-info').text('').append('<ul class="head-list"> <li>Открытие филиалов GreenPR в Казахстане и Украине  </li> <li>Визит в составе российской делегации в Кремниевую долину (визиты в Google, Facebook, Wikipedia, Yahoo и 12 других ключевых компаний)</li> <li>Переезд офиса из Санкт-Петербурга в Москву  </li> </ul>').show(400);
             $('.header-box').hide(400);
             $('.scale .scale-line').css({
                 'background-position-y': scaleHeight + 'px',
@@ -506,7 +506,7 @@ $('.scale .scale-line').css({
             $('#two').hide(200);
             $('#one').show(200);
             $('.header-title').text('').append('<span>2011</span>');
-            $(' .header-info').text('').append('<span>Выход на рынок Америки </span><br> <br> Открытие филиала GreenPR в Лос-Анджелесе <br>Вторая стажировка в Кремниевой долине');
+            $(' .header-info').text('').append('<span>Выход на рынок Америки </span><br> <br> Открытие филиала GreenPR в Лос-Анджелесе <br>Вторая стажировка в Кремниевой долине').show(400);
 
             $('.header-box').hide(400);
             $('.scale .scale-line').css({
@@ -554,7 +554,7 @@ $('.scale .scale-line').css({
             $('#two').hide(200);
             $('#one').show(200);
             $('.header-title').text('').append('<span>2012</span>');
-            $(' .header-info').text('').append('<span>Запуск легендарного курса <br>"SMM для бизнеса" </span>');
+            $(' .header-info').text('').append('<span>Запуск легендарного курса <br>"SMM для бизнеса" </span>').show(400);
 
             $('.header-box').hide(400);
             $('.scale .scale-line').css({
@@ -602,7 +602,7 @@ $('.scale .scale-line').css({
             $('#two').hide(200);
             $('#one').show(200);
             $('.header-title').text('').append('<span>2013</span>');
-            $(' .header-info').text('').append('<ul class="head-list"> <li>Выход книги «Маркетинг в социальных сетях» («Манн, Иванов и Фербер»)</li> <li>Победа в конкурсе SMM-баттл от Одноклассников (проект с Мегафоном <a href="http://www.cossa.ru/ok/" target=_blank>http://www.cossa.ru/ok/</a>)  </li> </ul>');
+            $(' .header-info').text('').append('<ul class="head-list"> <li>Выход книги «Маркетинг в социальных сетях» («Манн, Иванов и Фербер»)</li> <li>Победа в конкурсе SMM-баттл от Одноклассников (проект с Мегафоном <a href="http://www.cossa.ru/ok/" target=_blank>http://www.cossa.ru/ok/</a>)  </li> </ul>').show(400);
             $('.header-box').hide(400);
             $('.scale .scale-line').css({
                 'background-position-y': scaleHeight + 'px',
@@ -649,7 +649,7 @@ $('.scale .scale-line').css({
             $('#two').hide(200);
             $('#one').show(200);
             $('.header-title').text('').append('<span>2014</span>');
-            $(' .header-info').text('').append('<ul class="head-list"> <li>Развитие агентской активности на Европу</li> <li>Начало преподавательской деятельности в Высшей Школе Экономики</li> <li>Получение премии «Книга года» от Ozon.ru </li> <li>Свадьба с прекрасной Елена Халилова  </li> </ul>');
+            $(' .header-info').text('').append('<ul class="head-list"> <li>Развитие агентской активности на Европу</li> <li>Начало преподавательской деятельности в Высшей Школе Экономики</li> <li>Получение премии «Книга года» от Ozon.ru </li> <li>Свадьба с прекрасной Елена Халилова  </li> </ul>').show(400);
             $('.header-box').hide(400);
             $('.scale .scale-line').css({
                 'background-position-y': scaleHeight + 'px',
@@ -673,7 +673,7 @@ $('.scale .scale-line').css({
             $('#two').hide(200);
             $('#one').show(200);
             $('.header-title').text('').append('<span>2015</span>');
-            $(' .header-info').text('').append('<ul class="head-list"> <li>Начало работы с Технопарком Сколково</li>  <li>Консультирование стартапов ФРИИ</li>  <li>Тренинги в России, Турции, Казахстане, Азербайджане, Грузии  </li> </ul>');
+            $(' .header-info').text('').append('<ul class="head-list"> <li>Начало работы с Технопарком Сколково</li>  <li>Консультирование стартапов ФРИИ</li>  <li>Тренинги в России, Турции, Казахстане, Азербайджане, Грузии  </li> </ul>').show(400);
             $('.header-box').hide(400);
             $('.scale .scale-line').css({
                 'background-position-y': scaleHeight + 'px',
@@ -720,7 +720,7 @@ $('.scale .scale-line').css({
             $('#two').hide(200);
             $('#one').show(200);
             $('.header-title').text('').append('<span>2016</span>');
-            $(' .header-info').text('').append('<ul class="head-list"> <li>Организация большого образовательного проекта Everycamp в Барселоне (с Дарией Бикбаевой)</li>  <li>Вошел в топ-50 рейтинга Tagline - персоны Digital-индустрии</li>  <li>Старт ежегодного тренинга #SMM2017</li><li> Выход художественной книги «Ловзар»</li>  <li>Тренинги в России, Израиле, Испании, Греции, Турции, Беларуси, Украине, Узбекистане</li> </ul>');
+            $(' .header-info').text('').append('<ul class="head-list"> <li>Организация большого образовательного проекта Everycamp в Барселоне (с Дарией Бикбаевой)</li>  <li>Вошел в топ-50 рейтинга Tagline - персоны Digital-индустрии</li>  <li>Старт ежегодного тренинга #SMM2017</li><li> Выход художественной книги «Ловзар»</li>  <li>Тренинги в России, Израиле, Испании, Греции, Турции, Беларуси, Украине, Узбекистане</li> </ul>').show(400);
             $('.header-box').hide(400);
             $('.scale .scale-line').css({
                 'background-position-y': scaleHeight + 'px',
@@ -767,7 +767,7 @@ $('.scale .scale-line').css({
             $('#two').hide(200);
             $('#one').show(200);
             $('.header-title').text('').append('<span>2017</span>');
-            $(' .header-info').text('').append('<ul class="head-list"> <li>Запуск курса SMM для бизнеса 3.0</li>  <li>Запуск тренинга "Контент-маркетинг"</li>  <li>Выступление на Олимпийском стадионе в Сочи</li>  <li>Выход книги «Продвижение в Instagram» (ожидается в сентябре)  </li> </ul>');
+            $(' .header-info').text('').append('<ul class="head-list"> <li>Запуск курса SMM для бизнеса 3.0</li>  <li>Запуск тренинга "Контент-маркетинг"</li>  <li>Выступление на Олимпийском стадионе в Сочи</li>  <li>Выход книги «Продвижение в Instagram» (ожидается в сентябре)  </li> </ul>').show(400);
             $('.header-box').hide(400);
             $('.scale .scale-line').css({
                 'background-position-y': scaleHeight + 'px',
