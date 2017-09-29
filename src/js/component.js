@@ -12,7 +12,6 @@ $(document).ready(function($) {
         half = 52.5, 
         scaleInterval = 104, 
         scaleHeight = $('.scale-line').height() / 2 - half,
-
         arrowPosition = $('.scale-line').height() / 2 - 46;
 
     
@@ -825,7 +824,7 @@ $('.scale .scale-line').css({
             $('header').addClass('flex');
         }
 
-        /* Phone */
+        /* iPhone */
 
         if ($(window).width() < 750) {
 
@@ -866,48 +865,6 @@ $('.scale .scale-line').css({
             }
 
         }
-
-        /* iPhone 6*/
-
-/*        if ($(window).width() < 700 && $(window).width() > 570) {
-
-            if (y < 300) {
-                arrowPosition = $('.scale-line').height() / 2 - 28;
-                 $('.arrow').css({
-                  'top': arrowPosition + 'px'
-                  });
-                console.log("iPhone 5 46");
-
-            }
-
-            if (y > 300 && y < 1500) {
-                arrowPosition = $('.scale-line').height() / 2 - 28;
-                 $('.arrow').css({
-                  'top': arrowPosition + 'px'
-                  });
-                console.log("iPhone 5 46");
-
-            }
-
-            if (y > 1500 && y < 5400) {
-              arrowPosition = $('.scale-line').height() / 2 - 7;
-                 $('.arrow').css({
-                  'top': arrowPosition + 'px'
-                  });
-                console.log("iPhone 5 58");
-
-            }
-
-            if (y > 5400) {
-              arrowPosition = $('.scale-line').height() / 2 + 14;
-                 $('.arrow').css({
-                  'top': arrowPosition + 'px'
-                  });
-                console.log("iPhone 5 71");
-
-            }
-
-        }*/
 
         /* iPhone 6+*/
 
