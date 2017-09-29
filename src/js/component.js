@@ -102,7 +102,7 @@ $('.scale .scale-line').css({
             $(' .header-info').text('').append('<span>Первый раз зашел в Интернет</span><br> <br>Дамиру было 14 лет. Начиналась новая информационная эпоха для всего мира.').show(400);
 
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
             $('.registration-btn').hide();
@@ -132,7 +132,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
         }
@@ -155,7 +155,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
         }
@@ -177,7 +177,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
         }
@@ -198,7 +198,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
         }
@@ -220,7 +220,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
         }
@@ -242,7 +242,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
         }
@@ -263,7 +263,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
         }
@@ -285,7 +285,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
         }
@@ -307,7 +307,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
         }
@@ -329,7 +329,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
         }
@@ -351,7 +351,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
         }
@@ -373,7 +373,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
         }
@@ -399,7 +399,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
             $('.label li').removeClass('active');
@@ -423,7 +423,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
         }
@@ -444,7 +444,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
             $('.label li').removeClass('active');
@@ -468,7 +468,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
             $('.label li').removeClass('active');
@@ -491,7 +491,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
             $('.label li').removeClass('active');
@@ -516,7 +516,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
             $('.label li').removeClass('active');
@@ -539,7 +539,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
             $('.label li').removeClass('active');
@@ -564,7 +564,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
             $('.label li').removeClass('active');
@@ -587,7 +587,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
             $('.label li').removeClass('active');
@@ -611,7 +611,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
             $('.label li').removeClass('active');
@@ -634,7 +634,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
             $('.label li').removeClass('active');
@@ -658,7 +658,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
             $('.label li').removeClass('active');
@@ -682,7 +682,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
             $('.label li').removeClass('active');
@@ -705,7 +705,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
             $('.label li').removeClass('active');
@@ -729,7 +729,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
             $('.label li').removeClass('active');
@@ -752,7 +752,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
             $('.label li').removeClass('active');
@@ -776,7 +776,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
             $('.label li').removeClass('active');
@@ -800,7 +800,7 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.damir').css({
-                'opacity': '0.15',
+                'opacity': '0.6',
                 'transition': '1s'
             });
             $('.label li').removeClass('active');
