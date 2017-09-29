@@ -47,7 +47,6 @@
     }
     .scale .scale-line {
       background: url(../images/scale.png);
-      min-height: 11016px;
       width: 100%;
       background-repeat: repeat-y;
       background-position: 5px 0;
@@ -59,10 +58,11 @@
       height: 10px;
     }
     .label {
-      margin-top: 20px;
+      margin-top: -60px;
     }
     .label li {
       font-size: 10px;
+      margin-top: 10px;
     }
     .head-list li {
       color: #fff;
