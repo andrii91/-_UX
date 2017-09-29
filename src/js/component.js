@@ -56,11 +56,11 @@ $('.scale .scale-line').css({
           scaleHeight = $('.scale-line').height() / 2 - half;
           arrowPosition = $('.scale-line').height() / 2 - 46;
 
-
             $('.hide').show(400);
-            $('.header-box').show(400);
-            $(' .header-info').text('').append('История становления лучшего в СНГ <br><span>эксперта по SMM</span> на фоне зарождения <br>современного Интернета').show(400);
-            $('.header-title').text('').append('Кто такой  <span>Дамир Халилов</span>');
+            $('.header-box').hide(400);
+            $('.header-info').hide(400);
+            $('.header-title').text('').append('<p style="font-size: 24px;">Вся правда про опыт и достижения</p> <span>Дамира Халилова</span>');
+           
             $('.scale .scale-line').css({
                 'background-position-y': scaleHeight + 'px',
                 'transition': '1s'
@@ -75,10 +75,12 @@ $('.scale .scale-line').css({
             scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 1);
             arrowPosition = $('.scale-line').height() / 2 - 46;
 
-            $('.hide').show(400);
-            $('.header-box').hide(400);
-            $('.header-info').hide(400);
-            $('.header-title').text('').append('<p style="font-size: 24px;">Вся правда про опыт и достижения</p> <span>Дамира Халилова</span>');
+            
+
+             $('.hide').show(400);
+            $('.header-box').show(400);
+            $(' .header-info').text('').append('История становления лучшего в СНГ <br><span>эксперта по SMM</span> на фоне зарождения <br>современного Интернета').show(400);
+            $('.header-title').text('').append('Кто такой  <span>Дамир Халилов</span>');
             $('.scale .scale-line').css({
                 'background-position-y': scaleHeight + 'px',
                 'transition': '1s'
