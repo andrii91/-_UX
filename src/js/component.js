@@ -2,44 +2,44 @@ $(document).ready(function($) {
     var y = $(document).scrollTop();
     $("body,html").animate({
         scrollTop: y - 100
-    }, 500);
+    }, 1000);
     $('#two').hide();
     $('#three').hide();
 
 
-    var scalePosition, 
-        liActive = 56, 
-        half = 52.5, 
-        scaleInterval = 104, 
+    var scalePosition,
+        liActive = 56,
+        half = 52.5,
+        scaleInterval = 104,
         scaleHeight = $('.scale-line').height() / 2 - half,
         arrowPosition = $('.scale-line').height() / 2 - 46;
 
-    
+
     if ($(window).width() < 750) {
-      half = 42.5;
-      scaleInterval = 30;
-      liActive = 20;
-      scaleHeight = $('.scale-line').height() / 2 - half;
-      arrowPosition = $('.scale-line').height() / 2 - 28;
+        half = 42.5;
+        scaleInterval = 30;
+        liActive = 20;
+        scaleHeight = $('.scale-line').height() / 2 - half;
+        arrowPosition = $('.scale-line').height() / 2 - 28;
 
-            if (y < 300) {}
-            if (y > 300 && y < 600) {}
-            if (y > 600 && y < 900) {}
-            if (y > 900 && y < 1200) {}
-            if (y > 1200 && y < 1500) {}
-            if (y > 1500 && y < 1800) {}
-            if (y > 1800 && y < 2100) {}
-            if (y > 2100 && y < 2400) {}
-            if (y > 2400 && y < 2700) {}
-            if (y > 2700 && y < 3000) {}
-            if (y > 3000 && y < 3300) {}
-            if (y > 3300 && y < 3600) {}
-            if (y > 3600 && y < 3900) {}
-            if (y > 3900 && y < 4200) {}
-            if (y > 4200 && y < 4500) {}
-        }
+        if (y < 300) {}
+        if (y > 300 && y < 600) {}
+        if (y > 600 && y < 900) {}
+        if (y > 900 && y < 1200) {}
+        if (y > 1200 && y < 1500) {}
+        if (y > 1500 && y < 1800) {}
+        if (y > 1800 && y < 2100) {}
+        if (y > 2100 && y < 2400) {}
+        if (y > 2400 && y < 2700) {}
+        if (y > 2700 && y < 3000) {}
+        if (y > 3000 && y < 3300) {}
+        if (y > 3300 && y < 3600) {}
+        if (y > 3600 && y < 3900) {}
+        if (y > 3900 && y < 4200) {}
+        if (y > 4200 && y < 4500) {}
+    }
 
-$('.scale .scale-line').css({
+    $('.scale .scale-line').css({
         'background-position-y': scaleHeight + 'px',
         'transition': '1s'
     });
@@ -52,14 +52,14 @@ $('.scale .scale-line').css({
         y = $(this).scrollTop();
 
         if (y < 300) {
-          scaleHeight = $('.scale-line').height() / 2 - half;
-          arrowPosition = $('.scale-line').height() / 2 - 46;
+            scaleHeight = $('.scale-line').height() / 2 - half;
+            arrowPosition = $('.scale-line').height() / 2 - 46;
 
             $('.hide').show(400);
             $('.header-box').hide(400);
             $('.header-info').hide(400);
             $('.header-title').text('').append('<p style="font-size: 24px;">Вся правда про опыт и достижения</p> <span>Дамира Халилова</span>');
-           
+
             $('.scale .scale-line').css({
                 'background-position-y': scaleHeight + 'px',
                 'transition': '1s'
@@ -68,15 +68,19 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.registration-btn').show(400);
+            $('.col-6').addClass('slideInRight').addClass('animated');
+
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 300 && y < 600) {
 
             scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 1);
             arrowPosition = $('.scale-line').height() / 2 - 46;
 
-            
 
-             $('.hide').show(400);
+            $('.hide').show(400);
             $('.header-box').show(400);
             $(' .header-info').text('').append('История становления лучшего в СНГ <br><span>эксперта по SMM</span> на фоне зарождения <br>современного Интернета').show(400);
             $('.header-title').text('').append('Кто такой  <span>Дамир Халилов</span>');
@@ -92,6 +96,13 @@ $('.scale .scale-line').css({
                 'top': arrowPosition + 'px'
             });
             $('.registration-btn').show(400);
+
+
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
+            
         }
 
         if (y > 600 && y < 900) {
@@ -115,10 +126,14 @@ $('.scale .scale-line').css({
             $('.arrow').css({
                 'top': arrowPosition + 'px'
             });
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 900 && y < 1200) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 3);
-          arrowPosition = $('.scale-line').height() / 2 - 46;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 3);
+            arrowPosition = $('.scale-line').height() / 2 - 46;
 
             $('.hide').show(400);
             $('.registration-btn').hide();
@@ -136,10 +151,14 @@ $('.scale .scale-line').css({
                 'opacity': '0.6',
                 'transition': '1s'
             });
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 1200 && y < 1500) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 4);
-          arrowPosition = $('.scale-line').height() / 2 - 46;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 4);
+            arrowPosition = $('.scale-line').height() / 2 - 46;
 
             $('.hide').show(400);
             $('.registration-btn').hide();
@@ -159,10 +178,14 @@ $('.scale .scale-line').css({
                 'opacity': '0.6',
                 'transition': '1s'
             });
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 1500 && y < 1800) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 5 - liActive);
-          arrowPosition = $('.scale-line').height() / 2 + 10;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 5 - liActive);
+            arrowPosition = $('.scale-line').height() / 2 + 10;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('.header-title').text('').append('<span>2000</span>');
@@ -181,10 +204,14 @@ $('.scale .scale-line').css({
                 'opacity': '0.6',
                 'transition': '1s'
             });
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 1800 && y < 2100) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 6 - liActive);
-          arrowPosition = $('.scale-line').height() / 2 + 10;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 6 - liActive);
+            arrowPosition = $('.scale-line').height() / 2 + 10;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $(' .header-info').text('').append('<span>в это же время... </span><br> <br> <img src="images/logo_yandex-brauzer.png" style="float:left; max-width: 200px; margin: 0 30px 0 0;">Аркадий Волж <br>создает Яндекс').show(400);
@@ -202,10 +229,14 @@ $('.scale .scale-line').css({
                 'opacity': '0.6',
                 'transition': '1s'
             });
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 2100 && y < 2400) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 7 - liActive);
-          arrowPosition = $('.scale-line').height() / 2 + 10;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 7 - liActive);
+            arrowPosition = $('.scale-line').height() / 2 + 10;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('.header-title').text('').append('<span>2003</span>');
@@ -224,10 +255,14 @@ $('.scale .scale-line').css({
                 'opacity': '0.6',
                 'transition': '1s'
             });
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 2400 && y < 2700) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 8 - liActive);
-          arrowPosition = $('.scale-line').height() / 2 + 10;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 8 - liActive);
+            arrowPosition = $('.scale-line').height() / 2 + 10;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('.header-title').text('').append('<span>2004</span>');
@@ -246,10 +281,14 @@ $('.scale .scale-line').css({
                 'opacity': '0.6',
                 'transition': '1s'
             });
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 2700 && y < 3000) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 9 - liActive);
-          arrowPosition = $('.scale-line').height() / 2 + 10;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 9 - liActive);
+            arrowPosition = $('.scale-line').height() / 2 + 10;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $(' .header-info').text('').append('<span>в это же время... </span><br> <br> <img src="images/facebook-clipart-transparent-background-4.jpg" style="float:left; max-width: 200px; margin: 0 30px 0 0;">Марк Цукерберг<br> создает Facebook').show(400);
@@ -267,10 +306,14 @@ $('.scale .scale-line').css({
                 'opacity': '0.6',
                 'transition': '1s'
             });
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 3000 && y < 3300) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 10 - liActive);
-          arrowPosition = $('.scale-line').height() / 2 + 10;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 10 - liActive);
+            arrowPosition = $('.scale-line').height() / 2 + 10;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('.header-title').text('').append('<span>2005</span>');
@@ -289,10 +332,14 @@ $('.scale .scale-line').css({
                 'opacity': '0.6',
                 'transition': '1s'
             });
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 3300 && y < 3600) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 11 - liActive);
-          arrowPosition = $('.scale-line').height() / 2 + 10;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 11 - liActive);
+            arrowPosition = $('.scale-line').height() / 2 + 10;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('.header-title').text('').append('<span>2006</span>');
@@ -311,10 +358,15 @@ $('.scale .scale-line').css({
                 'opacity': '0.6',
                 'transition': '1s'
             });
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
+
         if (y > 3600 && y < 3900) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 12 - liActive);
-          arrowPosition = $('.scale-line').height() / 2 + 10;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 12 - liActive);
+            arrowPosition = $('.scale-line').height() / 2 + 10;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('.header-title').text('').append('<span>2007</span>');
@@ -333,10 +385,14 @@ $('.scale .scale-line').css({
                 'opacity': '0.6',
                 'transition': '1s'
             });
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 3900 && y < 4200) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 13 - liActive);
-          arrowPosition = $('.scale-line').height() / 2 + 10;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 13 - liActive);
+            arrowPosition = $('.scale-line').height() / 2 + 10;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('.header-title').text('').append('<span>2007</span>');
@@ -355,10 +411,14 @@ $('.scale .scale-line').css({
                 'opacity': '0.6',
                 'transition': '1s'
             });
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 4200 && y < 4500) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 14 - liActive);
-          arrowPosition = $('.scale-line').height() / 2 + 10;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 14 - liActive);
+            arrowPosition = $('.scale-line').height() / 2 + 10;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('.header-title').text('').append('<span>2008</span>');
@@ -377,13 +437,18 @@ $('.scale .scale-line').css({
                 'opacity': '0.6',
                 'transition': '1s'
             });
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 0 && y < 4500) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 15 - liActive);
-          arrowPosition = $('.scale-line').height() / 2 + 10;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 15 - liActive);
+            arrowPosition = $('.scale-line').height() / 2 + 10;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('#one').show(200);
+            
         }
         if (y > 4500 && y < 4800) {
             $('.hide').show(400);
@@ -405,10 +470,14 @@ $('.scale .scale-line').css({
             });
             $('.label li').removeClass('active');
             $('.label li:nth-child(2)').addClass('active');
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 4800 && y < 5100) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 16 - liActive);
-          arrowPosition = $('.scale-line').height() / 2 + 10;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 16 - liActive);
+            arrowPosition = $('.scale-line').height() / 2 + 10;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('#two').hide(200);
@@ -427,10 +496,15 @@ $('.scale .scale-line').css({
                 'opacity': '0.6',
                 'transition': '1s'
             });
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
+
         if (y > 5100 && y < 5400) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 17 - liActive);
-          arrowPosition = $('.scale-line').height() / 2 + 10;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 17 - liActive);
+            arrowPosition = $('.scale-line').height() / 2 + 10;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('#one').hide(200);
@@ -450,10 +524,14 @@ $('.scale .scale-line').css({
             });
             $('.label li').removeClass('active');
             $('.label li:nth-child(2)').addClass('active');
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 5400 && y < 5700) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 18 - liActive * 2);
-          arrowPosition = $('.scale-line').height() / 2 + 66;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 18 - liActive * 2);
+            arrowPosition = $('.scale-line').height() / 2 + 66;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('#two').hide(200);
@@ -474,10 +552,14 @@ $('.scale .scale-line').css({
             });
             $('.label li').removeClass('active');
             $('.label li:nth-child(3)').addClass('active');
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 5700 && y < 6000) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 19 - liActive * 2);
-          arrowPosition = $('.scale-line').height() / 2 + 66;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 19 - liActive * 2);
+            arrowPosition = $('.scale-line').height() / 2 + 66;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('#one').hide(200);
@@ -497,10 +579,14 @@ $('.scale .scale-line').css({
             });
             $('.label li').removeClass('active');
             $('.label li:nth-child(3)').addClass('active');
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 6000 && y < 6300) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 20 - liActive * 2);
-          arrowPosition = $('.scale-line').height() / 2 + 66;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 20 - liActive * 2);
+            arrowPosition = $('.scale-line').height() / 2 + 66;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('#two').hide(200);
@@ -522,10 +608,14 @@ $('.scale .scale-line').css({
             });
             $('.label li').removeClass('active');
             $('.label li:nth-child(3)').addClass('active');
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 6300 & y < 6600) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 21 - liActive * 2);
-          arrowPosition = $('.scale-line').height() / 2 + 66;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 21 - liActive * 2);
+            arrowPosition = $('.scale-line').height() / 2 + 66;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('#one').hide(200);
@@ -545,10 +635,14 @@ $('.scale .scale-line').css({
             });
             $('.label li').removeClass('active');
             $('.label li:nth-child(3)').addClass('active');
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 6600 && y < 6900) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 22 - liActive * 2);
-          arrowPosition = $('.scale-line').height() / 2 + 66;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 22 - liActive * 2);
+            arrowPosition = $('.scale-line').height() / 2 + 66;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('#two').hide(200);
@@ -570,10 +664,14 @@ $('.scale .scale-line').css({
             });
             $('.label li').removeClass('active');
             $('.label li:nth-child(3)').addClass('active');
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 6900 && y < 7200) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 23 - liActive * 2);
-          arrowPosition = $('.scale-line').height() / 2 + 66;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 23 - liActive * 2);
+            arrowPosition = $('.scale-line').height() / 2 + 66;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('#one').hide(200);
@@ -593,10 +691,14 @@ $('.scale .scale-line').css({
             });
             $('.label li').removeClass('active');
             $('.label li:nth-child(3)').addClass('active');
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 7200 && y < 7500) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 24 - liActive * 2);
-          arrowPosition = $('.scale-line').height() / 2 + 66;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 24 - liActive * 2);
+            arrowPosition = $('.scale-line').height() / 2 + 66;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('#two').hide(200);
@@ -617,10 +719,14 @@ $('.scale .scale-line').css({
             });
             $('.label li').removeClass('active');
             $('.label li:nth-child(3)').addClass('active');
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 7500 && y < 7800) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 25 - liActive * 2);
-          arrowPosition = $('.scale-line').height() / 2 + 66;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 25 - liActive * 2);
+            arrowPosition = $('.scale-line').height() / 2 + 66;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('#one').hide(200);
@@ -640,10 +746,14 @@ $('.scale .scale-line').css({
             });
             $('.label li').removeClass('active');
             $('.label li:nth-child(3)').addClass('active');
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 7800 && y < 8100) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 26 - liActive * 2);
-          arrowPosition = $('.scale-line').height() / 2 + 66;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 26 - liActive * 2);
+            arrowPosition = $('.scale-line').height() / 2 + 66;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('#two').hide(200);
@@ -664,10 +774,14 @@ $('.scale .scale-line').css({
             });
             $('.label li').removeClass('active');
             $('.label li:nth-child(3)').addClass('active');
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 8100 && y < 8400) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 27 - liActive * 2);
-          arrowPosition = $('.scale-line').height() / 2 + 66;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 27 - liActive * 2);
+            arrowPosition = $('.scale-line').height() / 2 + 66;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('#two').hide(200);
@@ -688,10 +802,14 @@ $('.scale .scale-line').css({
             });
             $('.label li').removeClass('active');
             $('.label li:nth-child(3)').addClass('active');
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 8400 && y < 8700) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 28 - liActive * 2);
-          arrowPosition = $('.scale-line').height() / 2 + 66;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 28 - liActive * 2);
+            arrowPosition = $('.scale-line').height() / 2 + 66;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('#one').hide(200);
@@ -711,10 +829,14 @@ $('.scale .scale-line').css({
             });
             $('.label li').removeClass('active');
             $('.label li:nth-child(3)').addClass('active');
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 8700 && y < 9000) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 29 - liActive * 2);
-          arrowPosition = $('.scale-line').height() / 2 + 66;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 29 - liActive * 2);
+            arrowPosition = $('.scale-line').height() / 2 + 66;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('#two').hide(200);
@@ -735,10 +857,14 @@ $('.scale .scale-line').css({
             });
             $('.label li').removeClass('active');
             $('.label li:nth-child(3)').addClass('active');
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 9000 && y < 9300) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 30 - liActive * 2);
-          arrowPosition = $('.scale-line').height() / 2 + 66;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 30 - liActive * 2);
+            arrowPosition = $('.scale-line').height() / 2 + 66;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('#one').hide(200);
@@ -758,10 +884,14 @@ $('.scale .scale-line').css({
             });
             $('.label li').removeClass('active');
             $('.label li:nth-child(3)').addClass('active');
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 9300 && y < 9600) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 31 - liActive * 2);
-          arrowPosition = $('.scale-line').height() / 2 + 66;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 31 - liActive * 2);
+            arrowPosition = $('.scale-line').height() / 2 + 66;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('#two').hide(200);
@@ -782,10 +912,14 @@ $('.scale .scale-line').css({
             });
             $('.label li').removeClass('active');
             $('.label li:nth-child(3)').addClass('active');
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
         }
         if (y > 9600 && y < 9900) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 32 - liActive * 2);
-          arrowPosition = $('.scale-line').height() / 2 + 66;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 32 - liActive * 2);
+            arrowPosition = $('.scale-line').height() / 2 + 66;
             $('.hide').show(400);
             $('.registration-btn').hide();
             $('#one').hide(200);
@@ -807,11 +941,16 @@ $('.scale .scale-line').css({
             $('.label li').removeClass('active');
             $('.label li:nth-child(3)').addClass('active');
             $('header').removeClass('flex');
+            $('.col-6').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('.col-6.animated').removeClass('slideInRight');
+            }, 1000);
+             $('#three').addClass('anim');
 
         }
         if (y > 9900) {
-          scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 33 - liActive * 2);
-          arrowPosition = $('.scale-line').height() / 2 + 66;
+            scaleHeight = $('.scale-line').height() / 2 - (half + scaleInterval * 33 - liActive * 2);
+            arrowPosition = $('.scale-line').height() / 2 + 66;
             $('.registration-btn').show(400);
             $('#three').show(200);
             $('#two').hide(200);
@@ -822,6 +961,10 @@ $('.scale .scale-line').css({
             });
             $('.hide').hide(400);
             $('header').addClass('flex');
+            $('#three.anim').addClass('slideInRight').addClass('animated');
+            setTimeout(function () {
+                $('#three').removeClass('slideInRight').removeClass('anim');
+            }, 1000);
         }
 
         /* iPhone */
@@ -830,36 +973,36 @@ $('.scale .scale-line').css({
 
             if (y < 300) {
                 arrowPosition = $('.scale-line').height() / 2 - 28;
-                 $('.arrow').css({
-                  'top': arrowPosition + 'px'
-                  });
+                $('.arrow').css({
+                    'top': arrowPosition + 'px'
+                });
                 console.log("iPhone 5 46");
 
             }
 
             if (y > 300 && y < 1500) {
                 arrowPosition = $('.scale-line').height() / 2 - 28;
-                 $('.arrow').css({
-                  'top': arrowPosition + 'px'
-                  });
+                $('.arrow').css({
+                    'top': arrowPosition + 'px'
+                });
                 console.log("iPhone 5 46");
 
             }
 
             if (y > 1500 && y < 5400) {
-              arrowPosition = $('.scale-line').height() / 2 - 7;
-                 $('.arrow').css({
-                  'top': arrowPosition + 'px'
-                  });
+                arrowPosition = $('.scale-line').height() / 2 - 7;
+                $('.arrow').css({
+                    'top': arrowPosition + 'px'
+                });
                 console.log("iPhone 5 58");
 
             }
 
             if (y > 5400) {
-              arrowPosition = $('.scale-line').height() / 2 + 14;
-                 $('.arrow').css({
-                  'top': arrowPosition + 'px'
-                  });
+                arrowPosition = $('.scale-line').height() / 2 + 14;
+                $('.arrow').css({
+                    'top': arrowPosition + 'px'
+                });
                 console.log("iPhone 5 71");
 
             }
@@ -883,7 +1026,7 @@ $('.scale .scale-line').css({
 
             if (y > 5400) {
 
-               
+
 
             }
 
