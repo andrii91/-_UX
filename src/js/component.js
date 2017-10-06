@@ -26,12 +26,11 @@ $(document).ready(function($) {
             }, 1500);
 
         });
-    }
         $('body, html,section').css({
             "overflow": "hidden"
         });
-        // document.addEventListener('touchmove', function(e) {e.preventDefault();}, true);
         document.getElementById("section").addEventListener('touchstart', function(e){ e.preventDefault(); });
+    }
     if ($(window).width() < 750) {
 
         half = 42.5;
