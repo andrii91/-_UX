@@ -16,7 +16,7 @@ $(document).ready(function($) {
 
 
     if ($(window).width() < 1080) {
-        $('body').css({
+        $('body, html').css({
             "overflow": "hidden"
         });
     }
