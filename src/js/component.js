@@ -15,7 +15,7 @@ $(document).ready(function($) {
         arrowPosition = $('.scale-line').height() / 2 - 46;
 
 
-    if ($(window).width() < 750) {
+    if ($(window).width() < 1080) {
         $('body').css({
             "overflow": "hidden"
         });
