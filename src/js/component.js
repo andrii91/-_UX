@@ -19,6 +19,7 @@ $(document).ready(function($) {
         $('body, html').css({
             "overflow": "hidden"
         });
+        document.addEventListener('touchmove', function(e) {e.preventDefault();}, true);
     }
     if ($(window).width() < 750) {
 
