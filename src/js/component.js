@@ -19,7 +19,8 @@ $(document).ready(function($) {
         $('body, html').css({
             "overflow": "hidden"
         });
-        document.addEventListener('touchmove', function(e) {e.preventDefault();}, true);
+        // document.addEventListener('touchmove', function(e) {e.preventDefault();}, true);
+        document.body.addEventListener('touchstart', function(e){ e.preventDefault(); });
     }
     if ($(window).width() < 750) {
 
