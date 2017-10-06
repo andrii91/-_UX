@@ -16,6 +16,11 @@ $(document).ready(function($) {
 
 
     if ($(window).width() < 750) {
+        $('body').css({
+            "overflow": "hidden"
+        });
+    }
+    if ($(window).width() < 750) {
 
         half = 42.5;
         scaleInterval = 30;
