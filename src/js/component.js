@@ -15,7 +15,7 @@ $(document).ready(function($) {
         arrowPosition = $('.scale-line').height() / 2 - 46;
 
 
-    if ($(window).width() < 1080) {
+    if ($(window).width() < 750) {
        $('body').append('<div id="touchstartInfo" style="position: fixed; display:none; top: 0; left:0;right: 0; bottom: 0; background: #000; z-index: 25;"><span style=" color: #fff; position:absolute; top:50%; left:50%;transform: translateX(-50%) translateY(-50%);">Дле перемещения используйте <img width="30" src="images/up.png" alt=""> <img width="30" src="images/down.png" alt=""></span></div>')
         $('#section').on('touchstart', function(e){
             e.stopPropagation(); 
