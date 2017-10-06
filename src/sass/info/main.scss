@@ -28,7 +28,10 @@ header {
   }
 }
 body {
-  min-height: 11016px;
+  section {
+    min-height: 11016px;
+    
+  }
   background: #000;
 }
 

@@ -16,11 +16,11 @@ $(document).ready(function($) {
 
 
     if ($(window).width() < 1080) {
-        $('body, html').css({
+        $('body, html,section').css({
             "overflow": "hidden"
         });
         // document.addEventListener('touchmove', function(e) {e.preventDefault();}, true);
-        document.body.addEventListener('touchstart', function(e){ e.preventDefault(); });
+        document.getElementById("section").addEventListener('touchstart', function(e){ e.preventDefault(); });
     }
     if ($(window).width() < 750) {
 
